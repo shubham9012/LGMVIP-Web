@@ -12,23 +12,19 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right top, #d16bce, #c671d5, #ba76db, #ae7be0, #a180e4, #8090f3, #579efc, #00abff, #00c1f9, #00d3e3, #36e0c6, #8de9aa);
-    /* background: #321d71; */
+    
 }
 
 
 
 .container{
-    /* display: flex; */
+    
     
     width: 90%;
     max-width: 650px;
-    /* border: solid black 1px; */
-    /* margin: auto; */
-    /* margin-top: 10rem; */
+    
     background: #f0e68c;
-    /* backdrop-filter: blur(50px); */
-    /* filter: drop-shadow(8px 8px 10px rgb(231, 225, 225)); */
-    /* background: transparent; */
+    
     overflow-y: auto;
     border-radius: 10px;
     display :flex;
@@ -46,8 +42,7 @@ h2{
 
 .list{
     width: 80%;
-    /* max-width: 550px; */
-    /* border: solid black 2px; */
+    
     display: flex;
     outline: none;
     background: rgb(250, 249, 250);
@@ -97,7 +92,7 @@ ul li{
     font-size: 1.15rem;
     line-height: .8rem; 
     letter-spacing: .05rem;
-    /* font-weight: bold; */
+    
     user-select: none;
     list-style-type: none;
     text-transform: capitalize;
@@ -119,10 +114,7 @@ ul li::before{
     position: absolute;
     left: 0.5rem;
     top: 0.9rem;
-    /* text-shadow: 5px 50px 5px; */
-    /* filter: brightness(200%); */
-    /* text-shadow: 2px 2px; */
-    /* margin-bottom: 10px; */
+    
 }
 
 
@@ -132,7 +124,7 @@ ul li.check{
 
 ul li.check::before{
     background-color: rgb(12, 165, 12);
-    /* box-shadow: -5px -5px -5px lightblue; */
+    
 }
 
 ul li span{
